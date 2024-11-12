@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    var accounts = ViewBag.accounts;
+}
+
+<div class="row">
+    @foreach (var item in accounts)
+    {
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="@item.Avatar" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Name</h5>
+                    <p class="card-text">@item.Bio</p>
+                    <a asp-route ="profile" asp-route-id ="@item.Id" class="btn btn-primary">Profile</a>
+                </div>
+            </div>
+        </div>
+    }
+
+   @*  <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img src="./images/avatar/avt2.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img src="./images/avatar/avt3.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div> *@
+
+</div>

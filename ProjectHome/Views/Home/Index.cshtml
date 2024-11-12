@@ -1,0 +1,69 @@
+﻿@{
+    Layout = "my_layout";
+    ViewData["Title"] = "HomePage";
+}
+@Html.RenderPartialAsync("Banner")
+
+<button id="loadAjax" class="btn btn-sm btn-primary">Click load book từ partialRessult</button>
+<hr/>
+@* Nội dung sẽ được load từ partial view vào đây *@
+<div id="data-form-ajax" class="row">loading data...</div>
+
+<h2>Popular Book load từ BookComponent</h2>
+@await Component.InvokeAsync("Book")
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+            <img src="./images/product/product1.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+            <img src="./images/product/product2.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+            <img src="./images/product/product2.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+            <img src="./images/product/product2.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        //gọi sự kiện clic vào nút bấm có id loadAjax
+        $('#loadAjax').click(function(){
+            //thông qua ajax load nội dung từ partial view vào id="data-form-ajax"
+            $('#data-form-ajax').load("Book/PopularBook");
+        })
+    </script>
+}
