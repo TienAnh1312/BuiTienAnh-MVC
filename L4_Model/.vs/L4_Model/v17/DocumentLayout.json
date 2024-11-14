@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L4_Model\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D225324-D381-4521-8CCC-91F733782AA8}|L4_Model\\L4_Model.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l4_model\\l4_model\\controllers\\peoplescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D225324-D381-4521-8CCC-91F733782AA8}|L4_Model\\L4_Model.csproj|solutionrelative:l4_model\\controllers\\peoplescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D225324-D381-4521-8CCC-91F733782AA8}|L4_Model\\L4_Model.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l4_model\\l4_model\\views\\peoples\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D225324-D381-4521-8CCC-91F733782AA8}|L4_Model\\L4_Model.csproj|solutionrelative:l4_model\\views\\peoples\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D225324-D381-4521-8CCC-91F733782AA8}|L4_Model\\L4_Model.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l4_model\\l4_model\\views\\peoples\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D225324-D381-4521-8CCC-91F733782AA8}|L4_Model\\L4_Model.csproj|solutionrelative:l4_model\\views\\peoples\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D225324-D381-4521-8CCC-91F733782AA8}|L4_Model\\L4_Model.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l4_model\\l4_model\\views\\peoples\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D225324-D381-4521-8CCC-91F733782AA8}|L4_Model\\L4_Model.csproj|solutionrelative:l4_model\\views\\peoples\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D225324-D381-4521-8CCC-91F733782AA8}|L4_Model\\L4_Model.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l4_model\\l4_model\\models\\people.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D225324-D381-4521-8CCC-91F733782AA8}|L4_Model\\L4_Model.csproj|solutionrelative:l4_model\\models\\people.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D225324-D381-4521-8CCC-91F733782AA8}|L4_Model\\L4_Model.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l4_model\\l4_model\\views\\peoples\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D225324-D381-4521-8CCC-91F733782AA8}|L4_Model\\L4_Model.csproj|solutionrelative:l4_model\\views\\peoples\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D225324-D381-4521-8CCC-91F733782AA8}|L4_Model\\L4_Model.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l4_model\\l4_model\\views\\peoples\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D225324-D381-4521-8CCC-91F733782AA8}|L4_Model\\L4_Model.csproj|solutionrelative:l4_model\\views\\peoples\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D225324-D381-4521-8CCC-91F733782AA8}|L4_Model\\L4_Model.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l4_model\\l4_model\\models\\datalocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D225324-D381-4521-8CCC-91F733782AA8}|L4_Model\\L4_Model.csproj|solutionrelative:l4_model\\models\\datalocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L4_Model\\L4_Model\\Views\\Peoples\\Delete.cshtml",
+              "RelativeDocumentMoniker": "L4_Model\\Views\\Peoples\\Delete.cshtml",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L4_Model\\L4_Model\\Views\\Peoples\\Delete.cshtml",
+              "RelativeToolTip": "L4_Model\\Views\\Peoples\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T03:22:16.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L4_Model\\L4_Model\\Views\\Peoples\\Edit.cshtml",
+              "RelativeDocumentMoniker": "L4_Model\\Views\\Peoples\\Edit.cshtml",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L4_Model\\L4_Model\\Views\\Peoples\\Edit.cshtml",
+              "RelativeToolTip": "L4_Model\\Views\\Peoples\\Edit.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T02:59:22.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L4_Model\\L4_Model\\Views\\Peoples\\Create.cshtml",
+              "RelativeDocumentMoniker": "L4_Model\\Views\\Peoples\\Create.cshtml",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L4_Model\\L4_Model\\Views\\Peoples\\Create.cshtml",
+              "RelativeToolTip": "L4_Model\\Views\\Peoples\\Create.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T02:29:26.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PeoplesController.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L4_Model\\L4_Model\\Controllers\\PeoplesController.cs",
+              "RelativeDocumentMoniker": "L4_Model\\Controllers\\PeoplesController.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L4_Model\\L4_Model\\Controllers\\PeoplesController.cs",
+              "RelativeToolTip": "L4_Model\\Controllers\\PeoplesController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAUwIMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T01:58:56.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L4_Model\\L4_Model\\Views\\Peoples\\Index.cshtml",
+              "RelativeDocumentMoniker": "L4_Model\\Views\\Peoples\\Index.cshtml",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L4_Model\\L4_Model\\Views\\Peoples\\Index.cshtml",
+              "RelativeToolTip": "L4_Model\\Views\\Peoples\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T02:01:07.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L4_Model\\L4_Model\\Views\\Peoples\\Details.cshtml",
+              "RelativeDocumentMoniker": "L4_Model\\Views\\Peoples\\Details.cshtml",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L4_Model\\L4_Model\\Views\\Peoples\\Details.cshtml",
+              "RelativeToolTip": "L4_Model\\Views\\Peoples\\Details.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T02:17:47.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataLocal.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L4_Model\\L4_Model\\Models\\DataLocal.cs",
+              "RelativeDocumentMoniker": "L4_Model\\Models\\DataLocal.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L4_Model\\L4_Model\\Models\\DataLocal.cs",
+              "RelativeToolTip": "L4_Model\\Models\\DataLocal.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T01:48:17.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "People.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L4_Model\\L4_Model\\Models\\People.cs",
+              "RelativeDocumentMoniker": "L4_Model\\Models\\People.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L4_Model\\L4_Model\\Models\\People.cs",
+              "RelativeToolTip": "L4_Model\\Models\\People.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T01:42:48.305Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
