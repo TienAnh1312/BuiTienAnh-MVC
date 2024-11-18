@@ -1,5 +1,5 @@
-﻿@model IEnumerable<PrjBH.Models.Product>
-
+﻿@model X.PagedList.IPagedList<PrjBH.Models.Product>
+@using X.PagedList.Mvc.Core;
 @{
     ViewData["Title"] = "Index";
 }
@@ -9,69 +9,71 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+
+<form action="" method="get" class="form-inline">
+    <div class="form-group">
+        <label class="sr-only" for="keyword">Tìm theo tên loại</label>
+        <input class="form-control" name="name" id="keyword" value="@ViewBag.keyword" placeholder="Nhập tên cần tìm">
+    </div>
+    <button type="submit" class="btn btn-default mr-1"><i class="fas fa-search"></i></button>
+    <a asp-action="Create" class="btn btn-primary"><i class="fas fa-plus"></i> Thêm mới</a>
+</form>
+
 <table class="table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.ProductName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Quantity)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Image)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CreatedAt)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UpdatedAt)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Category)
-            </th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().ProductName)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Description)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Price)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Quantity)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Image)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().CreatedAt)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().UpdatedAt)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Category)</th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.ProductName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Quantity)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Image)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CreatedAt)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UpdatedAt)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Category.CategoryId)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.ProductName)</td>
+                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
+                <td><img src="@item.Image" alt="" style="width:4rem"></td>
+                <td>@Html.DisplayFor(modelItem => item.CreatedAt)</td>
+                <td>@Html.DisplayFor(modelItem => item.UpdatedAt)</td>
+                <td>@Html.DisplayFor(modelItem => item.Category.CategoryId)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        <!-- Previous Page -->
+        <li class="page-item @(Model.PageNumber == 1 ? "disabled" : "")">
+            <a class="page-link" href="@Url.Action("Index", new { page = Model.PageNumber - 1, name = ViewBag.keyword })">Previous</a>
+        </li>
+
+        <!-- Page Number Links -->
+        @for (int i = 1; i <= Model.PageCount; i++)
+        {
+            <li class="page-item @(Model.PageNumber == i ? "active" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = i, name = ViewBag.keyword })">@i</a>
+            </li>
+        }
+
+        <!-- Next Page -->
+        <li class="page-item @(Model.PageNumber == Model.PageCount ? "disabled" : "")">
+            <a class="page-link" href="@Url.Action("Index", new { page = Model.PageNumber + 1, name = ViewBag.keyword })">Next</a>
+        </li>
+    </ul>
+</nav>
+

@@ -57,6 +57,7 @@ namespace PrjBH.Areas.AdminQL.Controllers
         {
             if (ModelState.IsValid)
             {
+
                 _context.Add(category);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

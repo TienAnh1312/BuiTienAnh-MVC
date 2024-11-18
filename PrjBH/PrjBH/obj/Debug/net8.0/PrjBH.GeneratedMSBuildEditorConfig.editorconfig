@@ -182,6 +182,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJVc2VyXFZpZXdzXFNoYXJlZFxfQ3VzdG9tZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/BuiTienAnh/Học tập/BuiTienAnh-TH/BuiTienAnh-MVC/PrjBH/PrjBH/Areas/CustomerUser/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJVc2VyXFZpZXdzXFVzZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BuiTienAnh/Học tập/BuiTienAnh-TH/BuiTienAnh-MVC/PrjBH/PrjBH/Areas/CustomerUser/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJVc2VyXFZpZXdzXFVzZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BuiTienAnh/Học tập/BuiTienAnh-TH/BuiTienAnh-MVC/PrjBH/PrjBH/Areas/CustomerUser/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJVc2VyXFZpZXdzXFVzZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BuiTienAnh/Học tập/BuiTienAnh-TH/BuiTienAnh-MVC/PrjBH/PrjBH/Areas/CustomerUser/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJVc2VyXFZpZXdzXFVzZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BuiTienAnh/Học tập/BuiTienAnh-TH/BuiTienAnh-MVC/PrjBH/PrjBH/Areas/CustomerUser/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJVc2VyXFZpZXdzXFVzZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/BuiTienAnh/Học tập/BuiTienAnh-TH/BuiTienAnh-MVC/PrjBH/PrjBH/Areas/CustomerUser/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJVc2VyXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

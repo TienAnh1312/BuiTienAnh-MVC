@@ -266,3 +266,15 @@ E:\BuiTienAnh\Học tập\BuiTienAnh-TH\BuiTienAnh-MVC\PrjBH\PrjBH\bin\Debug\net
 E:\BuiTienAnh\Học tập\BuiTienAnh-TH\BuiTienAnh-MVC\PrjBH\PrjBH\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 E:\BuiTienAnh\Học tập\BuiTienAnh-TH\BuiTienAnh-MVC\PrjBH\PrjBH\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 E:\BuiTienAnh\Học tập\BuiTienAnh-TH\BuiTienAnh-MVC\PrjBH\PrjBH\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+E:\BuiTienAnh\Học tập\BuiTienAnh-TH\BuiTienAnh-MVC\PrjBH\PrjBH\bin\Debug\net8.0\JetBrains.Annotations.dll
+E:\BuiTienAnh\Học tập\BuiTienAnh-TH\BuiTienAnh-MVC\PrjBH\PrjBH\bin\Debug\net8.0\System.Web.Mvc.dll
+E:\BuiTienAnh\Học tập\BuiTienAnh-TH\BuiTienAnh-MVC\PrjBH\PrjBH\bin\Debug\net8.0\System.Web.Razor.dll
+E:\BuiTienAnh\Học tập\BuiTienAnh-TH\BuiTienAnh-MVC\PrjBH\PrjBH\bin\Debug\net8.0\System.Web.Helpers.dll
+E:\BuiTienAnh\Học tập\BuiTienAnh-TH\BuiTienAnh-MVC\PrjBH\PrjBH\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+E:\BuiTienAnh\Học tập\BuiTienAnh-TH\BuiTienAnh-MVC\PrjBH\PrjBH\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+E:\BuiTienAnh\Học tập\BuiTienAnh-TH\BuiTienAnh-MVC\PrjBH\PrjBH\bin\Debug\net8.0\System.Web.WebPages.dll
+E:\BuiTienAnh\Học tập\BuiTienAnh-TH\BuiTienAnh-MVC\PrjBH\PrjBH\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll
+E:\BuiTienAnh\Học tập\BuiTienAnh-TH\BuiTienAnh-MVC\PrjBH\PrjBH\bin\Debug\net8.0\X.PagedList.dll
+E:\BuiTienAnh\Học tập\BuiTienAnh-TH\BuiTienAnh-MVC\PrjBH\PrjBH\bin\Debug\net8.0\X.PagedList.Mvc.dll
+E:\BuiTienAnh\Học tập\BuiTienAnh-TH\BuiTienAnh-MVC\PrjBH\PrjBH\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+E:\BuiTienAnh\Học tập\BuiTienAnh-TH\BuiTienAnh-MVC\PrjBH\PrjBH\bin\Debug\net8.0\X.PagedList.Web.Common.dll

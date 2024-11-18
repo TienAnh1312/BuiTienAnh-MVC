@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PrjBH.Models;
+using X.PagedList;
+
 
 namespace PrjBH.Areas.AdminQL.Controllers
 {
@@ -19,11 +21,28 @@ namespace PrjBH.Areas.AdminQL.Controllers
         }
 
         // GET: AdminQL/Products
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string name, int page = 1)
         {
-            var productStoreContext = _context.Products.Include(p => p.Category);
-            return View(await productStoreContext.ToListAsync());
+            // Số bản ghi trên một trang
+            int limit = 5;
+
+            // Lấy tất cả sản phẩm, nếu có tìm kiếm thì lọc theo tên
+            IQueryable<Product> productsQuery = _context.Products.OrderBy(c => c.ProductId);
+
+            if (!string.IsNullOrEmpty(name))
+            {
+                productsQuery = productsQuery.Where(c => c.ProductName.Contains(name));
+            }
+
+            // Phân trang sau khi áp dụng bộ lọc
+            var products = await productsQuery.ToPagedListAsync(page, limit);
+
+            // Truyền từ khóa tìm kiếm vào ViewBag để giữ giá trị tìm kiếm trên giao diện
+            ViewBag.keyword = name;
+
+            return View(products);
         }
+
 
         // GET: AdminQL/Products/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -58,14 +77,30 @@ namespace PrjBH.Areas.AdminQL.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ProductId,CategoryId,ProductName,Description,Price,Quantity,Image,CreatedAt,UpdatedAt")] Product product)
         {
-            if (ModelState.IsValid)
+
+            try
             {
+                var files = HttpContext.Request.Form.Files;
+                if (files.Count() > 0 && files[0].Length > 0)
+                {
+                    var file = files[0];
+                    var FileName = file.FileName;
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\product", FileName);
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        file.CopyTo(stream);    
+                        product.Image = "/images/product/" + FileName;
+                    }
+                }
                 _context.Add(product);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", product.CategoryId);
-            return View(product);
+            catch (Exception ex)
+            {
+                ViewBag.error = ex.Message;
+                return View(product);
+            }
         }
 
         // GET: AdminQL/Products/Edit/5
@@ -101,6 +136,18 @@ namespace PrjBH.Areas.AdminQL.Controllers
             {
                 try
                 {
+                    var files = HttpContext.Request.Form.Files;
+                    if (files.Count() > 0 && files[0].Length > 0)
+                    {
+                        var file = files[0];
+                        var FileName = file.FileName;
+                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\product", FileName);
+                        using (var stream = new FileStream(path, FileMode.Create))
+                        {
+                            file.CopyTo(stream);
+                            product.Image = "/images/product/" + FileName;
+                        }
+                    }
                     _context.Update(product);
                     await _context.SaveChangesAsync();
                 }
