@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\L9_SessionCookie.props" />
+</Project>
