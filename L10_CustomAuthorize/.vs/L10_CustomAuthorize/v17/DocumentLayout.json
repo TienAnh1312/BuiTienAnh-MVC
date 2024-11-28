@@ -1,0 +1,221 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l10_customauthorize\\l10_customauthorize\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|solutionrelative:l10_customauthorize\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l10_customauthorize\\l10_customauthorize\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|solutionrelative:l10_customauthorize\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l10_customauthorize\\l10_customauthorize\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|solutionrelative:l10_customauthorize\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l10_customauthorize\\l10_customauthorize\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|solutionrelative:l10_customauthorize\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l10_customauthorize\\l10_customauthorize\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|solutionrelative:l10_customauthorize\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l10_customauthorize\\l10_customauthorize\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|solutionrelative:l10_customauthorize\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l10_customauthorize\\l10_customauthorize\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|solutionrelative:l10_customauthorize\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l10_customauthorize\\l10_customauthorize\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|solutionrelative:l10_customauthorize\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l10_customauthorize\\l10_customauthorize\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|solutionrelative:l10_customauthorize\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l10_customauthorize\\l10_customauthorize\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|solutionrelative:l10_customauthorize\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l10_customauthorize\\l10_customauthorize\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|solutionrelative:l10_customauthorize\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\l10_customauthorize\\l10_customauthorize\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D6CAE9-A21D-418F-B035-534BCF8109B2}|L10_CustomAuthorize\\L10_CustomAuthorize.csproj|solutionrelative:l10_customauthorize\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\appsettings.json",
+              "RelativeDocumentMoniker": "L10_CustomAuthorize\\appsettings.json",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\appsettings.json",
+              "RelativeToolTip": "L10_CustomAuthorize\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-28T04:00:22.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "L10_CustomAuthorize\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "L10_CustomAuthorize\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:49:48.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Program.cs",
+              "RelativeDocumentMoniker": "L10_CustomAuthorize\\Program.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Program.cs",
+              "RelativeToolTip": "L10_CustomAuthorize\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:41:51.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "L10_CustomAuthorize\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "L10_CustomAuthorize\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAACUAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:27:08.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "L10_CustomAuthorize\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "L10_CustomAuthorize\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T03:35:46.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "L10_CustomAuthorize\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "L10_CustomAuthorize\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T03:35:35.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "L10_CustomAuthorize\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "L10_CustomAuthorize\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T03:34:59.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "L10_CustomAuthorize\\Views\\Home\\Login.cshtml",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "L10_CustomAuthorize\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T03:28:40.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "L10_CustomAuthorize\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "L10_CustomAuthorize\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T03:32:31.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "L10_CustomAuthorize\\Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "L10_CustomAuthorize\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T03:35:33.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "L10_CustomAuthorize\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "L10_CustomAuthorize\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T03:35:27.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "L10_CustomAuthorize\\Models\\Login.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\L10_CustomAuthorize\\L10_CustomAuthorize\\Models\\Login.cs",
+              "RelativeToolTip": "L10_CustomAuthorize\\Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:25:43.09Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
